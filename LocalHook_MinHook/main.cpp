@@ -24,7 +24,7 @@ void SetHook()
         MH_EnableHook(&MessageBoxA);
     }
     else {
-        std::cout << "Can not install hppk" << std::endl;
+        std::cout << "Can not install hook" << std::endl;
     }
 }
 
